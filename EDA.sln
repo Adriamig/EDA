@@ -18,6 +18,41 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-4", "2-4\2-4.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-5", "2-5\2-5.vcxproj", "{2F85519F-FB59-4ED8-A808-34A757F58D0C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-4", "4-4\4-4.vcxproj", "{10669B82-829C-414E-93A6-3253CBE96A28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TADS", "TADS", "{78143D5D-6158-4CE1-A4E4-620C2452610A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4", "4", "{9098AEEF-917D-4651-A534-E7FB6D1AA707}"
+	ProjectSection(SolutionItems) = preProject
+		TADS\4\Date1A.cpp = TADS\4\Date1A.cpp
+		TADS\4\Date1A.h = TADS\4\Date1A.h
+		TADS\4\Date1B.cpp = TADS\4\Date1B.cpp
+		TADS\4\Date1B.h = TADS\4\Date1B.h
+		TADS\4\Date2.cpp = TADS\4\Date2.cpp
+		TADS\4\Date2.h = TADS\4\Date2.h
+		TADS\4\Date3.cpp = TADS\4\Date3.cpp
+		TADS\4\Date3.h = TADS\4\Date3.h
+		TADS\4\Date4.cpp = TADS\4\Date4.cpp
+		TADS\4\Date4.h = TADS\4\Date4.h
+		TADS\4\DateTests.cpp = TADS\4\DateTests.cpp
+		TADS\4\DateTests.h = TADS\4\DateTests.h
+		TADS\4\Error.h = TADS\4\Error.h
+		TADS\4\Main.cpp = TADS\4\Main.cpp
+		TADS\4\Set.h = TADS\4\Set.h
+		TADS\4\SetOfInts1.cpp = TADS\4\SetOfInts1.cpp
+		TADS\4\SetOfInts1.h = TADS\4\SetOfInts1.h
+		TADS\4\SetOfInts2.cpp = TADS\4\SetOfInts2.cpp
+		TADS\4\SetOfInts2.h = TADS\4\SetOfInts2.h
+		TADS\4\SetOfInts3.cpp = TADS\4\SetOfInts3.cpp
+		TADS\4\SetOfInts3.h = TADS\4\SetOfInts3.h
+		TADS\4\SetTests.cpp = TADS\4\SetTests.cpp
+		TADS\4\SetTests.h = TADS\4\SetTests.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-1", "4-1\4-1.vcxproj", "{ADEE2C47-3689-4208-8CB9-3D846589E526}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-6", "4-6\4-6.vcxproj", "{22624530-8B0B-47CA-9391-CDA213B76826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -58,9 +93,36 @@ Global
 		{2F85519F-FB59-4ED8-A808-34A757F58D0C}.Release|x64.Build.0 = Release|x64
 		{2F85519F-FB59-4ED8-A808-34A757F58D0C}.Release|x86.ActiveCfg = Release|Win32
 		{2F85519F-FB59-4ED8-A808-34A757F58D0C}.Release|x86.Build.0 = Release|Win32
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Debug|x64.ActiveCfg = Debug|x64
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Debug|x64.Build.0 = Debug|x64
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Debug|x86.ActiveCfg = Debug|Win32
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Debug|x86.Build.0 = Debug|Win32
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Release|x64.ActiveCfg = Release|x64
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Release|x64.Build.0 = Release|x64
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Release|x86.ActiveCfg = Release|Win32
+		{10669B82-829C-414E-93A6-3253CBE96A28}.Release|x86.Build.0 = Release|Win32
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Debug|x64.ActiveCfg = Debug|x64
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Debug|x64.Build.0 = Debug|x64
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Debug|x86.Build.0 = Debug|Win32
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Release|x64.ActiveCfg = Release|x64
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Release|x64.Build.0 = Release|x64
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Release|x86.ActiveCfg = Release|Win32
+		{ADEE2C47-3689-4208-8CB9-3D846589E526}.Release|x86.Build.0 = Release|Win32
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Debug|x64.ActiveCfg = Debug|x64
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Debug|x64.Build.0 = Debug|x64
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Debug|x86.ActiveCfg = Debug|Win32
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Debug|x86.Build.0 = Debug|Win32
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Release|x64.ActiveCfg = Release|x64
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Release|x64.Build.0 = Release|x64
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Release|x86.ActiveCfg = Release|Win32
+		{22624530-8B0B-47CA-9391-CDA213B76826}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9098AEEF-917D-4651-A534-E7FB6D1AA707} = {78143D5D-6158-4CE1-A4E4-620C2452610A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE7DC2E2-A12D-45C4-9833-81DFD51CA8DB}

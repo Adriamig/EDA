@@ -7,7 +7,6 @@
 #include <fstream>
 #include <vector>
 
-
 using namespace std;
 
 // función que resuelve el problema
